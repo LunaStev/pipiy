@@ -7,14 +7,13 @@
 Clone the repository and install it:
 
 ```bash
-pip install .
+pip install pipiy
 ```
 
-```wson
-{
-    module = [
-        numpy = "1.24.0",
-        discord.py = "2.2.2"
-    ]
-}
+```bash
+pipiy init
+```
+
+```bash
+pipiy install [module]
 ```
