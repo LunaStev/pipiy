@@ -1,14 +1,18 @@
 [tool.poetry]
 name = "pipiy"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
-authors = ["LunaStev <youngjae681@gmail.com>"]
+authors = ["LunaStev <lunastev@gmail.com>"]
 readme = "README.md"
 packages = [{include = "pipiy", from = "src"}]
+repository = "https://github.com/lunastev/pipiy"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+wson = "*"
 
+[tool.poetry.scripts]
+pipiy = "pipiy.pipiy:main"
 
 [build-system]
 requires = ["poetry-core"]
