@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "pipiy"
-version = "0.1.1"
-description = ""
+version = "0.1.3"
+description = "pipiy module manager"
 authors = ["LunaStev <lunastev@gmail.com>"]
 readme = "README.md"
 packages = [{include = "pipiy", from = "src"}]
 repository = "https://github.com/lunastev/pipiy"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "*"
 wson = "*"
 
 [tool.poetry.scripts]
